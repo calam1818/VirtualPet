@@ -3,7 +3,7 @@ void setup(){
   //some of your code here
 }
 void draw(){
-  size(500,500);
+ size(500,500);
 background(0, 150, 255);
 fill(255,192,203);
 noStroke();
@@ -60,6 +60,13 @@ rect(230,115,25,15);
 fill(255,192,203);
 noStroke();
 rect(120,180,100,150);
+
+fill(255,192,203);
+noStroke();
+rect(220,200,50,20);
+fill(255,192,203);
+noStroke();
+rect(70,200,50,20);
 
 }
 
