@@ -1,9 +1,7 @@
-
 void setup(){
-  //some of your code here
+  size(500,500);
 }
 void draw(){
- size(500,500);
 background(0, 150, 255);
 fill(255,192,203);
 noStroke();
@@ -115,5 +113,7 @@ fill(219,112,147);
 noStroke();
 rect(40,300,30,20); 
 
+fill(255,192,203);
+stroke(219,112,147, 100);
+triangle(250, 450, 220, 330, 140, 330);
 }
-
