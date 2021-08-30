@@ -1,5 +1,9 @@
+import processing.serial.*;
+import cc.arduino.*;
+Arduino arduino;
 void setup(){
   size(500,500);
+    arduino = new Arduino(this, Arduino.list()[0], 57600);
 }
 void draw(){
 background(0, 150, 255);
@@ -113,6 +117,8 @@ fill(219,112,147);
 noStroke();
 rect(40,300,30,20); 
 
+int y = arduino.analogRead(5);
+System.out.println(y);
 fill(255,192,203);
 stroke(219,112,147, 100);
 triangle(250, 450, 220, 330, 140, 330);
